@@ -1,7 +1,7 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
-From: BillyGalbreath <blake.galbreath@gmail.com>
-Date: Sun, 12 Jun 2022 10:57:51 -0500
-Subject: [PATCH] Tentacles config files
+From: Pancakse <pancakseyt@gmail.com>
+Date: Mon, 6 Nov 2023 08:57:44 -0500
+Subject: [PATCH] Deepslate config files
 
 
 diff --git a/src/main/java/org/bukkit/Server.java b/src/main/java/org/bukkit/Server.java
@@ -12,12 +12,12 @@ index aaef58468a3c31f35e5067ed4263e9dd3fbddddd..414fc9220a181b82abdd0d2070dd6b68
          }
          // Purpur end
  
-+        // Tentacles start
++        // Deepslatw start
 +        @NotNull
-+        public org.bukkit.configuration.file.YamlConfiguration getTentaclesConfig() {
++        public org.bukkit.configuration.file.YamlConfiguration getDeepslateConfig() {
 +            throw new UnsupportedOperationException("Not supported yet.");
 +        }
-+        // Tentacles end
++        // Deepslate end
 +
          /**
           * Sends the component to the player
